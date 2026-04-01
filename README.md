@@ -14,10 +14,10 @@ Everything runs in your web browser. You do not need to install any software.
 
 ## What Is Inside
 
-| File                                            | What It Does                                                                                                              |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| `python_primer_for_radiologists.ipynb`          | Start here if you have never written code. A 30–45 minute introduction to Python using medical imaging examples.          |
-| `medical_imaging_hands_on_model_training.ipynb` | The main tutorial. Loads a prostate MRI dataset, preprocesses it, trains a segmentation model, and evaluates the results. |
+| File                          | What It Does                                                                                                              | Google Colab                                                                                                               |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| `python-primer.ipynb`         | Start here if you have never written code. A 30–45 minute introduction to Python using medical imaging examples.          | [python-primer](https://githubtocolab.com/amiralikh97/radiology-ai-tutorial/blob/main/python-primer.ipynb)                 |
+| `segmentation-training.ipynb` | The main tutorial. Loads a prostate MRI dataset, preprocesses it, trains a segmentation model, and evaluates the results. | [segmentation-training](https://githubtocolab.com/amiralikh97/radiology-ai-tutorial/blob/main/segmentation-training.ipynb) |
 
 ***
 
@@ -25,26 +25,9 @@ Everything runs in your web browser. You do not need to install any software.
 
 The notebooks run on **Google Colab** — a free, browser-based environment provided by Google. You only need a Google account.
 
-### Step 1 — Open the notebook on GitHub
+Option A: Click on the links above.
 
-1. Make sure you are on the repository's main page on GitHub (the page you are reading this on).
-2. Click on the file you want to open — for example, `medical_imaging_hands_on_model_training.ipynb`.
-3. GitHub will show you a preview of the notebook.
-
-### Step 2 — Open in Google Colab
-
-Once the notebook preview is open on GitHub, you have two options:
-
-**Option A (easiest):**
-In your browser's address bar, the URL will look like:
-
-```
-https://github.com/YOUR-USERNAME/radiology_ai_tutorial/blob/main/medical_imaging_hands_on_model_training.ipynb
-```
-
-Change the word `github.com` to `githubtocolab.com` and press Enter. Colab will open the notebook directly.
-
-**Option B:**
+Option B:
 
 1. Go to <https://colab.research.google.com>
 2. Click **File** → **Open notebook**
@@ -93,7 +76,7 @@ If something is not working, try the following:
 
 If you are still stuck, contact the tutorial authors.
 
----
+***
 
 ## License
 
